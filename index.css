@@ -1,0 +1,30 @@
+/* Center all content */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f2f2f2; /* Light gray background */
+}
+
+/* Container for centered content */
+.container {
+  text-align: center;
+  max-width: 80%;
+}
+
+/* Monospace font */
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Gray links */
+a {
+  color: #808080; /* Gray color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
